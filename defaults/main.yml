@@ -35,7 +35,7 @@ uwsgi_ini_path: "{{ root_dir }}/uwsgi.ini"
 project_port: 8000
 app_packages: []
 default_app_packages:
-  - python-pip
+  - python3-pip
   - libpq-dev
   - libev-dev
   - libevent-dev
@@ -55,4 +55,4 @@ default_app_packages:
   - python{{ python_version }}-dev
   - postfix
   - git-core
-  - python-virtualenv
+  - python3-virtualenv
